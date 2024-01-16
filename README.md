@@ -1,4 +1,4 @@
-# Titanium Network SEO Guide
+# Holy Unblocker & Titanium Network SEO Guide
 ## Competitive Search Engine Optimization is a powerful skillset to learn. 
 
 > **Created By Quite A Fancy Emerald, creator of Holy Unblocker a past popular web service with over 15M+ users monthly and zero sponsors**
