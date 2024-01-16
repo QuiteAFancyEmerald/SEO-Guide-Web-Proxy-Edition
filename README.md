@@ -430,7 +430,7 @@ Notice the optimization throughout the source. Leave animations to frameworks or
   
   By sitemap this guide talks about how you link to other pages on your navbar. Your navbar is incredibly important for actually contributing to the other pillars above. You want each page to retain the same readable structure and accessibility *but* need to ensure you switch up core keywords to give google a reason to index this page. Example is having descriptions separating the web proxies page from the home page or games page blah blah. You get it. 
   
-  This overall connects back to readable structure with using the h1, h2, and so forth tags. Your core HTML tags are favored more by search engines in comparison over CSS structuring when it comes to markdown. Ensure you utilize these tags but still feel free to depend on CSS for everything other design factor.
+  This overall connects back to readable structure with using the h1, h2, and so forth tags. Your core HTML tags are favored more by search engines in comparison over CSS structuring when it comes to markdown. Ensure you utilize these tags but still feel free to depend on CSS for every other design factor.
 
 ---
 
