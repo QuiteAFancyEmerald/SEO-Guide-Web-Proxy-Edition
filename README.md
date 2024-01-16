@@ -17,7 +17,7 @@ The idea is this:
 - First create a way to serve a SEO source to your official domain that ENDS in .net/.dev/.com/.org/.co (if your domain does not use these TLDs forget about getting good SEO. .app is possible but harder unless if you host a popular site)
 - This serving can be done either through server-side functions by well checking if the domain is the official site and serving up the exclusive SEO source, considering fancy str.replace methods (cough cough source randomization) or well straight up have two sources that you host separately
 
-Source Randomization: https://github.com/QuiteAFancyEmerald/Holy-Unblocker/blob/master/src/randomization.mjs
+**Source Randomization:** https://github.com/QuiteAFancyEmerald/Holy-Unblocker/blob/master/src/randomization.mjs
 
 You might ask is this worth it? Wouldn't this be harder to maintain or setup? Well sadly if you wish to competitive Search Engine Optimization you need to apply one of the serving methods in order to have a perfect source where you don't need to worry about keywords. Your official domain is going to get blocked almost instantly BUT it still serves as a gateway to your backlinks such as documentation, discord, social media and GitHub. It creates massive popularity. You might even ask yourself who is going to search this up? PEOPLE will search and SEO influences so much more than your classic distribution.
 
