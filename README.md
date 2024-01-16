@@ -426,7 +426,7 @@ Notice the optimization throughout the source. Leave animations to frameworks or
   
 - **Overall Sitemap** -
   
-  This guide is not just saying you need this file or aying you need to organize your project folders in a certain way. It doesn't matter if this is done with nginx or whatever although have folder paths is preferable on google. (Still organize however) 
+  This guide is not just saying you need this file or saying you need to organize your project folders in a certain way. It doesn't matter if this is done with nginx or whatever although have folder paths is preferable on google. (Still organize however) 
   
   By sitemap this guide talks about how you link to other pages on your navbar. Your navbar is incredibly important for actually contributing to the other pillars above. You want each page to retain the same readable structure and accessibility *but* need to ensure you switch up core keywords to give google a reason to index this page. Example is having descriptions separating the web proxies page from the home page or games page blah blah. You get it. 
   
