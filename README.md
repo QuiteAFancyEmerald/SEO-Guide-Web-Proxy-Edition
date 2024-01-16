@@ -1,5 +1,5 @@
 # Holy Unblocker & Titanium Network SEO Guide
-## Competitive Search Engine Optimization is a powerful skillset to learn. 
+## Competitive Search Engine Optimization is a powerful skill set to learn. 
 
 > **Created By Quite A Fancy Emerald, creator of Holy Unblocker a past popular web service with over 15M+ users monthly and zero sponsors**
 
@@ -24,26 +24,26 @@ This README goes through core concepts discovered through hosting various web pr
 
 Want to create and maintain a popular proxy website? Or just a website in general and/or have almost near perfect visibility across search engines and easy discovery to a discord server?
 
-Before we even BOTHER with the source you need to understand where to look. First off to those who are worried about SEO and web proxies hosting with keyword concerns (keywords can be used to source block); YOU NEED TO only apply this to an official domain. Do you really think you can have thousands of domains retain equal SEO? No. 
+Before we even BOTHER with the source you need to understand where to look. First off to those who are worried about SEO and web proxies hosting with keyword concerns (keywords can be used to source block); YOU NEED TO only apply this to an official domain. Do you think you can have thousands of domains retain equal SEO? No. 
 
 The idea is this: 
 
-- First create a way to serve a SEO source to your official domain that ENDS in .net/.dev/.com/.org/.co (if your domain does not use these TLDs forget about getting good SEO. .app is possible but harder unless if you host a popular site)
-- This serving can be done either through server-side functions by well checking if the domain is the official site and serving up the exclusive SEO source, considering fancy str.replace methods (cough cough source randomization) or well straight up have two sources that you host separately
+- First, create a way to serve a SEO source to your official domain that ENDS in .net/.dev/.com/.org/.co (if your domain does not use these TLDs forget about getting good SEO. .app is possible but harder unless you host a popular site)
+- This serving can be done either through server-side functions by well-checking if the domain is the official site and serving up the exclusive SEO source, considering fancy `str.replace` methods (cough cough source randomization) or well straight up have two sources that you host separately
 
 **Source Randomization:** https://github.com/QuiteAFancyEmerald/Holy-Unblocker/blob/master/src/randomization.mjs
 
-You might ask is this worth it? Wouldn't this be harder to maintain or setup? Well sadly if you wish to utilize competitive Search Engine Optimization you need to apply one of the serving methods in order to have a perfect source where you don't need to worry about keywords. Your official domain is going to get blocked almost instantly BUT it still serves as a gateway to your backlinks such as documentation, discord, social media and GitHub. It creates massive popularity. You might even ask yourself who is going to search this up? PEOPLE will search and SEO influences so much more than your classic distribution.
+You might ask is this worth it? Wouldn't this be harder to maintain or set up? Well sadly if you wish to utilize competitive Search Engine Optimization you need to apply one of the serving methods to have a perfect source where you don't need to worry about keywords. Your official domain is going to get blocked almost instantly BUT it still serves as a gateway to your backlinks such as documentation, discord, social media, and GitHub. It creates massive popularity. You might even ask yourself who is going to search this up? PEOPLE will search and SEO influences so much more than your classic distribution.
 
 ## Starting Steps
 
 1) Create a search console account for Google: https://search.google.com/search-console/about
-     Google should be your priority. You first need to actually get your site indexed and understand what Google is looking for. This tool will TELL you everything you need to know. Sure you will need to nerd about a bit but the steps below will make more sense once you see this console. On the actual console page ENSURE to type out the absolute path to index; example is "https://holyunblocker.net/" with your fancy /. Do this for every single page with the URL Inspection tool. Remember your paths need to be server side not straight up markdown files. Check the performance tab once your site gains users to see if your keywords and well below you will see if your descriptors are leaving good impressions on Google. With good SEO you should hold a spot from either 1-6.
+     Google should be your priority. You first need to get your site indexed and understand what Google is looking for. This tool will TELL you everything you need to know. Sure you will need to nerd about a bit but the steps below will make more sense once you see this console. On the actual console page ENSURE to type out the absolute path to index; an example is "https://holyunblocker.net/" with your fancy /. Do this for every single page with the URL Inspection tool. Remember your paths need to be server side not straight up markdown files. Check the performance tab once your site gains users to see if your keywords and well below you will see if your descriptors are leaving good impressions on Google. With good SEO you should hold a spot from either 1-6.
 
 ---
 
 2) Create a webmasters account for Bing: https://www.bing.com/webmasters/about
-    Same concept above but for Bing. Bing is a bit more uh basic therefore focus on Google. Bing tends to eat off it anyways. Ensure that your source specifically with both NGINX and the actual source specifies Bing if you care more about it. Remember though less users. Regardless Bing tends to be a lot less picky when compared to Google. Everything from rich results, etc. is easier. Remember Bing is used by many search engines such as DuckDuckGo
+    The same concept above but for Bing. Bing is a bit more uh basic therefore focus on Google. Bing tends to eat off it anyway. Ensure that your source specifically with both NGINX and the actual source specifies Bing if you care more about it. Remember though fewer users. Regardless Bing tends to be a lot less picky when compared to Google. Everything from rich results, etc. is easier. Remember Bing is used by many search engines such as DuckDuckGo
 
 ---
 
@@ -59,8 +59,8 @@ You might ask is this worth it? Wouldn't this be harder to maintain or setup? We
 
 ---
 
-4) Create robots.txt and ensure its routed correctly: https://yoast.com/ultimate-guide-robots-txt/
-    Touching into creating a source console account you will notice this is frequently talked about. You need to specify specific paths and also block paths. DONT JUST WHITELIST EVERYTHING. All search engines care about detailed robots.txt files. Will it downrank you? No but having a solid understanding of user agents give you an edge over the majority of basic sites.  
+4) Create robots.txt and ensure it is routed correctly: https://yoast.com/ultimate-guide-robots-txt/
+    Touching into creating a source console account you will notice this is frequently talked about. You need to specify specific paths and also block paths. DON'T JUST WHITELIST EVERYTHING. All search engines care about detailed robots.txt files. Will it downrank you? No, but having a solid understanding of user agents gives you an edge over the majority of basic sites.  
 
 **Read over popular user agents:** https://www.whatismybrowser.com/guides/the-latest-user-agent/
 
@@ -68,7 +68,7 @@ You might ask is this worth it? Wouldn't this be harder to maintain or setup? We
 
 5) Create a properly formatted sitemap even with poor paths but consider RICH paths for your service
    
-    For this I could type out a guide but that is rather unneeded. I will instead upload an example. Notice how I specify the priority of content rich pages of importance that way Google or Bing can understand and create "Rich Results" better. Sometimes Google will ignore this however it is apart of the old web but still an essential SEO resource to have. This file will be in your root directory for served content. You will submit this to the Search Console for both Google and Bing.
+    For this, I could type out a guide but that is rather unneeded. I will instead upload an example. Notice how I specify the priority of content-rich pages of importance that way Google or Bing can understand and create "Rich Results" better. Sometimes Google will ignore this however it is a part of the old web but still an essential SEO resource to have. This file will be in your root directory for served content. You will submit this to the Search Console for both Google and Bing.
    
 **5a:** https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap 
    
@@ -137,9 +137,9 @@ You might ask is this worth it? Wouldn't this be harder to maintain or setup? We
 
 ---
 
-6) Creating and maintaining backlinks: Below I will provide source linking examples. Think about a spider web. You don't want just your site top ranking but the entire spider web on that Google/Bing page
+6) Creating and maintaining backlinks: Below I will provide source linking examples. Think about a spider web. You don't want just your site's top ranking but the entire spider web on that Google/Bing page
 
-    Before we even start touching the source you need to make sure you have some sort of social media accounts made as well as documentation. Having your project open-source is one of the easiest ways to maintain backlinks. Ensure your README is in-depth and full of important descriptors. Provide screenshots or even videos of your service this will all be indexed. Google and Bing will naturally take any GitHub results and index them building up your backlinks. Create social media accounts and upload on them. Or don't just ensure the descriptors are unique enough and link it on your README. THIS IS ESSENTIAL. If you don't do this you might as well be wasting your time with all these keyword changes. Without backlinks you cannot have a popular service.
+    Before we even start touching the source you need to make sure you have some sort of social media accounts made as well as documentation. Having your project open-source is one of the easiest ways to maintain backlinks. Ensure your README is in-depth and full of important descriptors. Provide screenshots or even videos of your service this will all be indexed. Google and Bing will naturally take any GitHub results and index them building up your backlinks. Create social media accounts and upload them. Or don't just ensure the descriptors are unique enough and link it on your README. THIS IS ESSENTIAL. If you don't do this you might as well be wasting your time with all these keyword changes. Without backlinks, you cannot have a popular service.
 
 Useful backlinks: GitHub, Docusaurus on a subdomain like "docs", Patreon account, YouTube account, Twitter account, Open Collective account, XDA Forums post, Quora post, Discord server with vanity or non-vanity, credible sponsors such as Medium or organizations, other projects on GitHub or wikis with your unique project name or optimized official site (optimized as in source)
 
@@ -154,9 +154,9 @@ Useful backlinks: GitHub, Docusaurus on a subdomain like "docs", Patreon account
 <script type="text/javascript" src="/somefile.js?123456789"></script>
 ```
 
-Below I will example the importance of basic web security setup. TTL cache is a core metric for search engines to both crawl any updated content you have but also index faster. Save yourself and your users pain by ensuring your assets update fast enough. Markdown (HTML) will be nearly instant but stylesheets and other scripts will take time. That is where timestamping comes into play.
+Below I will example of the importance of a basic web security setup. TTL cache is a core metric for search engines to both crawl any updated content you have but also index faster. Save yourself and your user's pain by ensuring your assets update fast enough. Markdown (HTML) will be nearly instant but stylesheets and other scripts will take time. That is where timestamping comes into play.
 
-For my example I forced all my caching to Cloudflare which acted as my CDN by specifying the proxy_cache_bypass directive with NGINX. You can however use a different CDN or cache everything on your own server if you have a nice instance. Utilize the gzip directive fully.
+For my example, I forced all my caching to Cloudflare which acted as my CDN by specifying the proxy_cache_bypass directive with NGINX. You can however use a different CDN or cache everything on your server if you have a nice instance. Utilize the gzip directive fully.
 
 **Cloudflare:** https://developers.cloudflare.com/cache/how-to/cache-rules/
 
@@ -169,7 +169,7 @@ For my example I forced all my caching to Cloudflare which acted as my CDN by sp
 
  THIS IS SUPER IMPORTANT. I'm talking **HTTP2, TLS, SSL, SECURITY HEADERS, ADDED HTTP HEADERS**
 
-First off use NGINX and if you wish you can use CF for caching or whatever CDN. Maintain NGINX as your initial reverse proxy setup however. A lot of people don't understand the importance of modern web security and how Google or Bing actually account for this. They check for specific security headers, proper TLS/SSL settings and fingerprinting. Above and below I am providing various examples for what you should consider adding as well as my own server example from when I was hosting Holy Unblocker
+First off use NGINX and if you wish you can use CF for caching or whatever CDN. Maintain NGINX as your initial reverse proxy setup, however. A lot of people don't understand the importance of modern web security and how Google or Bing account for this. They check for specific security headers, proper TLS/SSL settings, and fingerprinting. Above and below I am providing various examples of what you should consider adding as well as my server example from when I was hosting Holy Unblocker
    
 **8a:** https://medium.com/@oryaacov/how-to-setup-a-secured-http-server-using-nginx-c7d8e85815a
 
@@ -184,7 +184,7 @@ First off use NGINX and if you wish you can use CF for caching or whatever CDN. 
 ---
 
 ### Nginx Example
-My source. I realize this is a wall but I actually commented out every essential thing you could possibly need. This is also good structure for those wanting a fast reverse proxy setup. I include all SEO essential nginx directives. I also include error pages. Note my formatting. Error pages are essential as well although I could not tell you the SEO impact it allows for a more rich server setup.
+My source. I realize this is a wall but I commented out every essential thing you could need. This is also a good structure for those wanting a fast reverse proxy setup. I include all SEO essential nginx directives. I also include error pages. Note my formatting. Error pages are essential as well although I could not tell you the SEO impact it allows for a more rich server setup.
   
 ```nginx
  ##### Default Settings #####
@@ -390,47 +390,47 @@ My source. I realize this is a wall but I actually commented out every essential
 ## Source Structure
 
 ### Overview
-Having rich and well structured served web content is obviously one of the most important factors for Search Engine Optimization on top of optimized server-side changes and the starting steps above. This section will be split into both the core head tag structuring and body tag.
+Having rich and well-structured served web content is one of the most important factors for Search Engine Optimization on top of optimized server-side changes and the starting steps above. This section will be split into both the core head tag structuring and the body tag.
 
-Below I list out your primary focuses as well as tricks I have learned along the way. Perhaps seeing is better than reading so I also provide my entire optimized source with explainations:
+Below I list out your primary focuses as well as tricks I have learned along the way. Perhaps seeing is better than reading so I also provide my entire optimized source with explanations:
 
 ---
 
 - **Rich Keywords** -
  
-  Not the keywords meta name attribute but actually ensuring the majority your site has relevant keywords related to the description meta name attribute. Consider actually looking up some of these keywords and viewing what other sites use for this section or note competitor keyword usage on their sites. Consider using the example above if your service shares a similar niche.
+  Not the keywords meta name attribute but ensuring the majority of your site has relevant keywords related to the description meta name attribute. Consider looking up some of these keywords and viewing what other sites use for this section or note competitor keyword usage on their sites. Consider using the example above if your service shares a similar niche.
 
-  Notice the parallel keywords throughout my examples below. Currently in 2024, most search engines will ignore the keywords name attribute but it does have an impact on some search engines still and general structure. You want that universal ease for both Google, Bing and whatever. For the description I ensured that it would actually embed properly on both Google and Bing. Usually 150 characters or so.
+  Notice the parallel keywords throughout my examples below. Currently, in 2024, most search engines will ignore the keyword name attribute but it does have an impact on some search engines still and general structure. You want that universal ease for Google, Bing, and whatever. For the description, I ensured that it would embed properly on both Google and Bing. Usually 150 characters or so.
 
 ---
 
 - **Readable Structure** -
 
-You are not using a framework that makes things unreadable. I hope not. Regardless these factors still apply. Have your served content be clean enough to read that way you can actually focus on the richness of included keywords. You want your site to be as textbook as possible source wise.
+You are not using a framework that makes things unreadable. I hope not. Regardless these factors still apply. Have your served content be clean enough to read that way you can focus on the richness of included keywords. You want your site to be as textbook as possible source-wise.
 
 ---
 
 - **Accessibility** - 
   
-  Google in particular (your primary focus) cares big time about accessibility. This factor you could argue is actually probably the second most important thing with this entire guide. Google will rank your site poorly if it suffers any language or readability issues. This entire area includes font size, CLS (Content Layout Shifts), source by the book responsiveness, etc. I will explain below that you can kinda "cheat" following regulations on mobile support HOWEVER having real mobile support is naturally great for a popular service.
+  Google in particular (your primary focus) cares big time about accessibility. This factor you could argue is probably the second most important thing with this entire guide. Google will rank your site poorly if it suffers any language or readability issues. This entire area includes font size, CLS (Content Layout Shifts), source-by-the-book responsiveness, etc. I will explain below that you can kinda "cheat" following regulations on mobile support HOWEVER having real mobile support is naturally great for a popular service.
   
-  A very good tool to use for this is actual Google's own Page Insights utility or Lighthouse. Utilize both to your liking.
+  A very good tool to use for this is Google's own Page Insights utility or Lighthouse. Utilize both to your liking.
 
 ---
 
 - **Performance** - 
 
-Notice the optimization throughout the source. Leave animations to frameworks or JavaScript as most modern browsers are not very performant with CSS animations or keyframes. Keep things clean and minimal. This is a strong metric for Google search ranking. If your site is laggy or has network issues consider a proper hosting provider and/or a CDN. Lighthouse and generic devtools is a good way to analyze the paint time for your entire site and breakdown which assets are causing issues. Remember core practices such as always ensuring fonts are hosted on external CDNs and other similar assets.
+Notice the optimization throughout the source. Leave animations to frameworks or JavaScript as most modern browsers are not very performant with CSS animations or keyframes. Keep things clean and minimal. This is a strong metric for Google search ranking. If your site is laggy or has network issues consider a proper hosting provider and/or a CDN. Lightspeed and generic tools are a good way to analyze the paint time for your entire site and break down which assets are causing issues. Remember core practices such as always ensuring fonts are hosted on external CDNs and other similar assets.
 
 ---
   
 - **Overall Sitemap** -
   
-  This guide is not just saying you need this file or saying you need to organize your project folders in a certain way. It doesn't matter if this is done with nginx or whatever although have folder paths is preferable on google. (Still organize however) 
+  This guide is not just saying you need this file or saying you need to organize your project folders in a certain way. It doesn't matter if this is done with Nginx or whatever although having folder paths is preferable on Google. (Still organized however) 
   
-  By sitemap this guide talks about how you link to other pages on your navbar. Your navbar is incredibly important for actually contributing to the other pillars above. You want each page to retain the same readable structure and accessibility *but* need to ensure you switch up core keywords to give google a reason to index this page. Example is having descriptions separating the web proxies page from the home page or games page blah blah. You get it. 
+  By sitemap, this guide talks about how you link to other pages on your navbar. Your navbar is incredibly important for actually contributing to the other pillars above. You want each page to retain the same readable structure and accessibility *but* need to ensure you switch up core keywords to give Google a reason to index this page. An example is having descriptions separating the web proxies page from the home page or games page blah blah. You get it. 
   
-  This overall connects back to readable structure with using the h1, h2, and so forth tags. Your core HTML tags are favored more by search engines in comparison over CSS structuring when it comes to markdown. Ensure you utilize these tags but still feel free to depend on CSS for every other design factor.
+  This overall connects back to a readable structure by using the h1, h2, and so forth tags. Your core HTML tags are favored more by search engines in comparison to CSS structuring when it comes to markdown. Ensure you utilize these tags but still feel free to depend on CSS for every other design factor.
 
 ---
 
@@ -566,7 +566,7 @@ Notice the optimization throughout the source. Leave animations to frameworks or
 ```
 
 ### Body Tag (SEO - NAVBAR)
-It is essential that your `sitemap.xml` file and navbar match accordingly with page priority if you want to have correct Rich Results on Google or Bing. Ensuring you have a clean and rich page names is essential. For example I could have called the Web Proxies page just Proxies or something bland like Surf. However focusing on core keywords I decided to stick to Web Proxies. Same concept applies throughout the site for every page. Docs will be lengthened to Documentation, etc.
+Your `sitemap.xml` file and navbar must match accordingly with page priority if you want to have correct Rich Results on Google or Bing. Ensuring you have a clean and rich page name is essential. For example, I could have called the Web Proxies page just Proxies or something bland like Surf. However, focusing on core keywords I decided to stick to Web Proxies. The same concept applies throughout the site for every page. Docs will be lengthened to Documentation, etc.
 
 ```html
 <div id="header" class="fullwidth">
@@ -603,7 +603,7 @@ The main takeaway here is my use of the (be sure not the abuse keywords):
 - Proper HTML markdown structuring for each respective element. Headers are headers and text is text. Code tag is code.
 - **alt attribute** on images for accessibility
 - **span attribute** for clarity when it comes to crawling
-- Descriptive class names for stylesheets (ranking factor) or proper use of a framework (weirdly using a framework helps with SEO but for those vanilla site users you can have your own source remember; just keep the names descriptive and clean)
+- Descriptive class names for stylesheets (ranking factor) or proper use of a framework (weirdly using a framework helps with SEO but for those vanilla site users you can have your source remember; just keep the names descriptive and clean)
 - Rich keyword usage relevant to the site which can help support backlinks
 
 ```html
